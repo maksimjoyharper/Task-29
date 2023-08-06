@@ -9,8 +9,8 @@ function deleteP(element) {
 let fly = document.getElementById("imgFly");
 
 fly.onmouseover = function (i) {
-  fly.style.width = "300px";
-  fly.style.height = "120px";
+  fly.style.width = "700px";
+  fly.style.height = "450px";
 };
 
 fly.onmouseout = function (i) {
