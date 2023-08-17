@@ -26,9 +26,12 @@ btn3.addEventListener("click", () => {
 function newText() {
   let textInp = document.getElementById("textInp").value;
   let list = document.createElement("li");
-  let listElement = document.createTextNode(textInp);
-  list.appendChild(listElement);
 
-  let ul = document.getElementById("ul");
-  ul.appendChild(list);
+  if (textInp !== "") {
+    let listElement = document.createTextNode(textInp);
+    list.appendChild(listElement);
+
+    let ul = document.getElementById("ul");
+    ul.appendChild(list);
+  }
 }
