@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Maksim</title>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <a href="./index.html" class="button-home-page">Лёгкий уровень</a>
+        <a href="./index1.html" class="button-chat">Средний уровень</a>
+        <a href="./index2.html" class="button-chat">Доп Задание</a>
+    </div>
+
+    <div class="content">
+        <p>Задание 1</p>
+        <form action="">
+            <input id="input" type="text">
+            <button onclick="show()" type="submit" id="btn">Отправить</button>
+        </form>
+
+        <p>Задание 2</p>
+        <div>
+            <select name="" id="select">
+                <option id="str1" value="">string 111</option>
+                <option id="str2" value="">string 222</option>
+                <option id="str3" value="">string 333</option>
+            </select>
+            <button id="btn" onclick="choice()">Показать выбранное</button>
+            <p id="par">Здесь отобразится ваш выбор</p>
+        </div>
+
+    </div>
+
+    <p>Задание 3</p>
+    <h1>Интерактивный календарь</h1>
+
+    <form action="" id="formDate">
+        <input id="monthPick" type="text" name='month' placeholder="Month">
+        <input id="yearPick" type="text" name="year" placeholder="Year">
+        <input type="submit" value="Click">
+    </form>
+
+    <div class="box"></div>
+
+    <hr>
+    <section></section>
+    <section id="content-event"></section>
+</body>
+<script src="./index2.js"></script>
+
+</html>
